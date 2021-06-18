@@ -1,0 +1,46 @@
+{
+  "extends": ["tslint-react-hooks","tslint-config-airbnb", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prefer-template": false,
+    "object-shorthand-properties-first": false,
+    "react-hooks-nesting": "error",
+    "rules-of-hooks": "error",
+    "exhaustive-deps": "warn",
+    "function-name": [
+      true,
+      { "method-regex": "^[a-z][\\w\\d]+$",
+        "private-method-regex": "^[a-z][\\w\\d]+$",
+        "protected-method-regex": "^[a-z][\\w\\d]+$",
+        "static-method-regex": "^[A-Z_\\d]+$",
+        "function-regex": "^[a-zA-Z][\\w\\d]+$" }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ],
+    "max-line-length": [
+      true,
+      140
+    ],
+    "no-consecutive-blank-lines": [
+      true,
+      2
+    ],
+    "no-unused-expression": true,
+    "space-in-parens": [
+      "error",
+      "never"
+    ],
+    "import-name": false,
+    "arrow-parens": [
+      true,
+      "ban-single-arg-parens"
+    ],
+    "ter-arrow-parens": false,
+    "no-increment-decrement": false,
+    "prettier": [true, { "printWidth": 120 }]
+  }
+}
