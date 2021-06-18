@@ -1,5 +1,5 @@
 # Ping Pong
-Follow the stpes given below in order to start the application
+Follow the steps given below in order to start the application
 ---
 
 - Go to root directory and install node modules required for the frondend.
