@@ -15,7 +15,7 @@ interface Route<T> {
 
 type MainRoute = Route<Category>;
 
-export const homeRoute = "/home";
+export const homeRoute = "/";
 export const dashboardRoute = "/dashboard";
 
 export const routes: MainRoute[] = [
